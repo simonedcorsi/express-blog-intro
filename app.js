@@ -46,7 +46,6 @@ app.get("/api/images", (req, res) => {
             tags: ['ricette', 'piatti tipici']
         }
     ];
-    res.json(ricette)
  
 })    
     
