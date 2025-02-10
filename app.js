@@ -46,10 +46,7 @@ app.get("/api/images", (req, res) => {
             tags: ['ricette', 'piatti tipici']
         }
     ];
- 
+ res.json(posts);
 })    
     
 
-app.get('/bacheca', (req, res) => {
-    res.json(posts);
-  });
