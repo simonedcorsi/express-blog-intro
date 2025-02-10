@@ -44,3 +44,7 @@ const posts = [
         tags: ['ricette', 'piatti tipici']
       }
 ];
+
+app.get('/bacheca', (req, res) => {
+    res.json(posts);
+  });
