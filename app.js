@@ -12,7 +12,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-app.get("/api/images", (req, res) => {
+app.get("/api/bacheca", (req, res) => {
 
     const posts = [
         {
